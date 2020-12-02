@@ -1,0 +1,50 @@
+h2 {
+  position: relative;
+  padding: 0.005rem 1rem;
+  border: 3px solid #d8d8d8;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+h2:before {
+  position: absolute;
+  bottom: -14px;
+  left: 1em;
+  width: 0;
+  height: 0;
+  content: '';
+  border-width: 4px 2px 0 2px;
+  border-style: solid;
+  border-color: #d8d8d8 transparent transparent transparent;
+}
+
+h2:after {
+  position: absolute;
+  bottom: -10px;
+  left: 1em;
+  width: 0;
+  height: 0;
+  content: '';
+  border-width: 4px 2px 0 2px;
+  border-style: solid;
+  border-color: #f9f9f9 transparent transparent transparent;
+}
+body{
+background
+
+}
+
+button {
+  display       : inline-block;
+  border-radius : 5%;          /* 角丸       */
+  font-size     : 18pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 12px 12px;   /* 余白       */
+  background    : #000066;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+  border        : 2px solid #000066;    /* 枠の指定 */
+}
